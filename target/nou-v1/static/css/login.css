@@ -1,0 +1,77 @@
+body {
+	background-color: #CCCCCC !important;
+}
+
+.conteudo-login {
+	background-color: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	height: 300px;
+	left: 50%;
+	margin: -150px 0 0 -250px;
+	position: absolute;
+	top: 49%;
+	width: 450px;
+	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+	border: 1px solid #AAAAAA;
+}
+
+.conteudo-login-logo {
+	background-color: #D8DFE5;
+	border-bottom: 1px solid #AAAAAA;
+	border-radius: 8px 8px 0 0;
+	float: left;
+	height: 55px;
+	margin-bottom: 36px;
+	padding: 14px 8px 7px;
+	text-align: left;
+	width: 100%;
+}
+
+.control-prop-extra {
+	color: #666666;
+	margin: 0 auto;
+	margin-bottom: 30px !important;
+	width: 350px;
+}
+
+.control-prop-extra button {
+	height: 30px;
+	margin: 0 auto;
+	width: 115px;
+	
+}
+
+.control-prop-extra span {
+	font-weight: bold;
+}
+
+.rodape-login {
+	float: right;
+	height: 40px;
+	margin: 5px 0 0;
+	width: 100%;
+}
+
+.rodape-logo {
+	width: 52px;
+	height: 26px;
+	float: right !important;
+	margin: 6px;
+}
+
+.login, .password {
+	width: 80%;
+}
+
+.desenvby {
+	color: #666666;
+	font-weight: bold;
+	font-size: 9px;
+	float: right;
+	margin-right: 5px;
+	margin-top: -10px;
+}

@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+.data-area {
+	border: 1px solid #999999;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 6px 0 0 6px;
+	width: 844px;
+}
+
+.data-area-text {
+	font-size: 20px;
+	line-height: 20px;
+	float: left;
+}
+
+.data-area-text-right {
+	float: right;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 5px 12px 5px 5px;
+}
+
+.resumo-area {
+	border: 1px solid #999999;
+	border-radius: 8px 8px 8px 8px;
+	margin: 25px auto;
+	width: 850px;
+}
+
+.resumo-area h1 {
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #003896;
+}
+
+.status-area {
+	border-top: 1px solid #999999;
+	height: 130px;
+	padding: 30px 10px;
+}
+
+.status-campo {
+	border: 1px solid #999999;
+	border-radius: 6px;
+	height: 70px;
+	width: 135px;
+	float: left;
+	margin: 2px;
+}
+
+.status-campo span {
+	border-bottom: 1px solid #999999;
+	line-height: 20px;
+	padding: 0 5px;
+	text-align: center;
+	width: 94%;
+}
+
+.status-geral {
+	width: 48px !important;
+}
+
+.status-geral span {
+	width: 38px !important;
+}
+
+.status-bcs {
+	width: 180px !important;
+}
+
+.status-bcs span {
+	width: 170px !important;
+}
+
+.status-indice-precos {
+	width: 150px !important;
+}
+
+.status-feed-preco {
+	width: 285px !important;
+}
+
+.status-feed-preco span {
+	width: 270px !important;
+}
+
+.bol-center-geral {
+	width: 50% !important;
+}
+
+.bol-center-bcs {
+	width: 85% !important;
+}
+
+.bol-center-bcs-1 {
+	width: 72% !important;
+}
+
+.bol-center-preco-opcao {
+	width: 58% !important;
+}
+
+.bol-center-taxa {
+	width: 80% !important;
+}
+
+.bol-center-preco {
+	width: 75% !important;
+}
+
+.bol-center-curva {
+	width: 65% !important;
+}
+
+.painel-ctn {
+	float: left;
+	padding-left: 15px;
+	width: 100%;
+}
+
+.painel-ctn-menu {
+	float: left;
+	padding-right: 5px;
+	width: 20%;
+}
+
+.painel-cth-status {
+	float: left;
+	width: 75%;
+}
+
+.painel-cth-datas {
+	float: left;
+	margin-top: 8px;
+}
+
+.painel-cth-datas span {
+	float: left;
+	padding: 5px;
+	width: 44%;
+}
+
+.datas-line {
+	float: left;
+	width: 100%;
+	border: 1px solid #999;
+	margin-top: 5px;
+}
+
+.legenda {
+	margin-top: 5px;
+	width: 94%;
+	background-color: #CCC;
+}
+
+.status-campo span {
+	background-color: #003896;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.painel-btn-acao {
+	margin-top: 10px;
+}
+
+.painel-btn-acao-le {
+	float: left;
+}
+
+.painel-btn-acao-ri {
+	float: right;
+}
+
+.painel-btn-acao-leng {
+	width: 80%;
+	text-align: left;
+}
+
+.linha-painel {
+	float: left;
+}
+
+.linha-painel label {
+	font-size: 11px;
+	height: 11px;
+}
+
+.legenda-line {
+	float: left;
+	font-size: 11px;
+	height: 18px;
+	width: 100%;
+	text-align: left;
+}
+
+.painel-ctn-status-col {
+	float: left;
+	width: 26%;
+}
+
+.pull-d {
+	float: right;
+}
+
+.modif-data-area {
+	margin: 0 auto;
+	padding: 45px 10px;
+	width: 350px;
+}
+
+.modif-data-area button {
+	float: right;
+	margin-right: 6px;
+}
+
+.home-status {
+	margin: 10px 2px 2px;
+}
+
+.btn-right {
+	float: right;
+	margin: 5px;
+}
+
+.line-cadstro {
+	text-align: left;
+}
+
+.ctn-cadstro-usuario {
+	width: 230px;
+}
+
+.simulacao-tx-header-cota {
+	color: #003896;
+	text-aling: center;
+}
+
+.conteudo-area-cota {
+	margin: 0 auto;
+	min-height: 560px;
+	padding: 0px;
+	width: 1200px;
+	float: center;
+}
+
+.text-aling-center-cota {
+	text-align: center;
+}

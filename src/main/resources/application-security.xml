@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans:beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/security" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:oauth="http://www.springframework.org/schema/security/oauth2"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+				http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+				http://www.springframework.org/schema/mvc 
+				http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+				http://www.springframework.org/schema/context 
+				http://www.springframework.org/schema/context/spring-context-3.1.xsd
+              	http://www.springframework.org/schema/security 
+              	http://www.springframework.org/schema/security/spring-security-3.1.xsd
+              	http://www.springframework.org/schema/security/oauth2 
+              	http://www.springframework.org/schema/security/spring-security-oauth2-1.0.xsd">
+
+	<context:component-scan base-package="br.com.nou" />
+
+
+	<context:property-placeholder location="classpath:config.properties" />
+
+	<global-method-security secured-annotations="enabled"
+		pre-post-annotations="enabled" />
+	<http pattern="/static/**" security="none" />
+
+	<http auto-config="true" access-denied-page="/login">
+		<intercept-url pattern="/login**" access="IS_AUTHENTICATED_ANONYMOUSLY" />
+		<intercept-url pattern="/**" access="ROLE_ADMIN" />
+
+		<!-- <custom-filter ref="ajaxTimeoutRedirectFilter" after="EXCEPTION_TRANSLATION_FILTER" 
+			/> -->
+
+		<form-login authentication-failure-url="/login?login_error=true"
+			login-page="/login" login-processing-url="/j_spring_security_check" />
+
+		<logout logout-url="/logout" />
+	</http>
+
+
+	<beans:bean id="myAuthenticationProvider"
+		class="br.com.nou.service.security.MyAuthenticationProvider"></beans:bean>
+
+	<authentication-manager>
+		<authentication-provider ref="myAuthenticationProvider" />
+
+	</authentication-manager>
+
+
+	<mvc:default-servlet-handler />
+</beans:beans>

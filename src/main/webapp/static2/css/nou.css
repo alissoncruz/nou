@@ -1,0 +1,50 @@
+ .glyphicon.glyphicon-th {
+    font-size: 20px;
+}
+
+.result{
+	
+	max-width:100%;	
+}
+
+.result p{
+	margin-left: 0%;
+}
+.exception-result{
+	color: red;
+}
+
+#divBusca{
+  margin-left: 10%;	
+  margin-top: 4px;
+  background-color:#FFFFFF;
+  border:solid 2px #ECECEC;;
+  border-radius:10px;
+  width:50%;
+  height:32px;
+  z-index: 2;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:13px;
+  border:none;
+  height:32px;
+  width:80%;
+}
+
+#btnBusca{
+  border:none;
+ 
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:20%;
+  font-weight:bold;
+  background:#ECECEC;
+}
+
+#divBusca img{
+  float:left;
+}

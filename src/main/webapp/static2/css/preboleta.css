@@ -1,0 +1,83 @@
+.conteudo-area h3 {
+	background-color: #191838;
+	border-radius: 5px;
+	color: #FDFDFD;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 22px;
+	margin: 2px 0 2px 7px;
+	padding: 0 0 0 10px;
+	width: 98%;
+}
+
+.pesquisa-boleta {
+	width: 30%;
+	margin: 5px 0 5px 5px;
+	height: 28px;
+}
+
+.input-group-addon {
+	height: 18px;
+	font-size: 10px !important;
+	border: none !important;
+}
+
+.table-preboleta {
+	font-size: 9px !important;
+}
+
+.table-preboleta td {
+	padding: 3px !important;
+}
+
+.det-search {
+	margin-left: 5px !important;
+	margin-top: 4px;
+}
+
+.pboleta-send {
+	margin-right: -229% !important;
+	float: right;
+}
+
+.preboletahead {
+	color: #191838;
+	background-color: #D8DFE5;
+}
+
+.ind-ctn-info {
+	display: inline-block !important;
+	margin-left: 25px;
+}
+
+.modal-footer {
+	background-color: #D8DFE5;
+}
+
+.alllist {
+	float: right;
+	margin-top: 50px;
+}
+
+#inlineCheckbox1 {
+	float: right;
+	margin-left: 5px !important;
+}
+
+.checkbox {
+	margin-right: 9px;
+}
+
+.selecionada{
+	background-color: RGBA(144,224,78,0.46);
+	color: #000000;
+	font-weight: bold;
+}
+.nao-selecionada{
+	background-color: #FFFFFF;
+}
+
+body,table,tr,td,a,a:hover,a:visited,a:active {
+	cursor:pointer;
+}	
+	

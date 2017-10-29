@@ -1,0 +1,383 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	font-size: 12px;
+	color: #555;
+}
+
+.header-bloco {
+	background-color: #0E1A2B;
+	float: left;
+	height: 45px;
+	width: 100%;
+}
+
+.header-conteudo {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.brand {
+	color: #E1E1E1 !important;
+	padding: 8px !important;
+}
+
+.nav-menu a:hover {
+	background-color: #0E1A2B !important;
+}
+
+.data-area-text {
+	font-size: 12px;
+	padding: 4px;
+}
+
+.data-area-input {
+	float: left;
+	margin-bottom: 0 !important;
+}
+
+.data-imput-left {
+	float: left;
+	height: 24px;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+.footer-versao {
+	color: #0E1A2B;
+	display: block;
+	float: right;
+	font-size: 10px;
+	left: 0;
+	margin: 10px 30px 0 0;
+	position: relative;
+}
+
+.nav-versao {
+	color: #DDD;
+	display: block;
+	float: left;
+	font-size: 9px;
+	left: 0;
+	margin: 0 0 0 10px;
+	position: relative;
+}
+
+.navbar-inner {
+	background-color: #0E1A2B;
+	background-image: linear-gradient(to bottom, #0E1A2B, #0E1A2B);
+	background-image: -moz-linear-gradient(top, #0E1A2B, #0E1A2B);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0E1A2B),
+		to(#0E1A2B));
+	background-image: -webkit-linear-gradient(top, #0E1A2B, #0E1A2B);
+	background-image: -o-linear-gradient(top, #0E1A2B, #0E1A2B);
+	background-image: linear-gradient(to bottom, #0E1A2B, #0E1A2B);
+	border: 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0E1A2B',
+		endColorstr='#0E1A2B', GradientType=0);
+	*zoom: 1;
+	padding-right: 0;
+	height: 45px;
+}
+
+.navbar {
+	margin-bottom: 5px;
+}
+
+.navbar .nav li.dropdown.open>.dropdown-toggle, .navbar .nav li.dropdown.active>.dropdown-toggle,
+	.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+	background-color: #0290FA;
+	color: #FFF;
+}
+
+.navbar .nav li.dropdown>.dropdown-toggle .caret {
+	border-bottom-color: #FFF;
+	border-top-color: #FFF;
+}
+
+.navbar .nav>li>a {
+	background-color: #0E1A2B;
+	color: #FFF;
+	font-size: 11px;
+	padding: 10px;
+	text-shadow: 0 1px 0 #212121;
+	max-width: 115px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+	color: #D4FFFF;
+}
+
+.input-append, .input-prepend {
+	margin-bottom: 0px;
+}
+
+.st {
+	display: inline-block;
+	height: 13px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 13px;
+	background-position: center middle;
+	background-repeat: no-repeat;
+}
+
+.st-feito {
+	background-image: url("../image/st-feito.png");
+}
+
+.st-feitoq {
+	background-image: url("../image/st-feitoq.png");
+}
+
+.st-nfeito {
+	background-image: url("../image/st-nfeito.png");
+}
+
+.st-nfeitoq {
+	background-image: url("../image/st-nfeitoq.png");
+}
+
+.st-estimado {
+	background-image: url("../image/st-estimado.png");
+}
+
+.st-alerta {
+	background-image: url("../image/st-alerta.png");
+}
+
+.st-alertaq {
+	background-image: url("../image/st-alertaq.png");
+}
+
+.st-legenda {
+	background-color: #E6E6E6;
+	border: 1px dashed #777777;
+	float: right;
+	height: 24px;
+	margin-right: 4px;
+	margin-top: 4px;
+	width: auto;
+}
+
+.st-legenda span {
+	font-size: 10px;
+}
+
+.st-right {
+	float: right;
+}
+
+.st-progresso {
+	float: left;
+	margin: 0;
+	width: 70%;
+	*filter: none !important;
+	filter: none !important;
+}
+
+.legenda {
+	background-color: #CCCCCC;
+	float: right;
+}
+
+.conteudo-bloco {
+	float: left;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.conteudo-area {
+	width: 1024px;
+	margin: 0 auto;
+	min-height: 500px;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	border-radius: 0 0 8px 8px;
+}
+
+.data-area {
+	background: none repeat scroll 0 0 #EAEAEC;
+	border: 1px solid #bbb;
+	border-radius: 3px 3px 3px 3px;
+	height: 34px;
+	margin: 5px auto;
+	padding: 2px;
+	width: 99%;
+}
+
+.painel-ctn-status {
+	float: left;
+	width: 100%;
+}
+
+.painel-ctn-status-col {
+	float: left;
+	margin-left: 25px;
+	margin-top: 5px;
+	width: 30%;
+}
+
+.status-campo {
+	border: 1px solid #999999;
+	border-radius: 6px;
+	box-shadow: 0 8px 6px -6px #999999;
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.legenda {
+	background-color: #CCCCCC;
+	float: right;
+}
+
+.status-campo-titulo {
+	border-bottom: 1px solid #999999;
+	color: #0E1A2B;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 2px 0 0 2px;
+	text-align: center;
+	width: 98%;
+}
+
+.linha-painel {
+	float: left;
+	margin-bottom: 4px;
+	padding: 2px;
+	width: 95%;
+}
+
+.bar label {
+	font-size: 11px !important;
+	margin-left: 10px;
+	text-align: left;
+	color: #242424;
+	width: 200px;
+	position: relative;
+}
+
+.progress .bar {
+	background-image: -moz-linear-gradient(top, #C0D9D9, #ADEAEA);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#C0D9D9),
+		to(#ADEAEA));
+	background-image: -webkit-linear-gradient(top, #C0D9D9, #ADEAEA);
+	background-image: -o-linear-gradient(top, #C0D9D9, #ADEAEA);
+	background-image: linear-gradient(to bottom, #C0D9D9, #ADEAEA);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C0D9D9',
+		endColorstr='#ADEAEA', GradientType=0);
+}
+
+.popover-ctn {
+	
+}
+
+.popover-ctn p {
+	float: left;
+	margin: 0 0 5px;
+	width: 100%;
+}
+
+.popover-ctn label {
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	height: 20px;
+	margin: 0;
+	padding-left: 5px;
+}
+
+.rodape-bloco {
+	width: 100%;
+	display: inline-block;
+}
+
+.rodape-campo {
+	height: 50px;
+	left: 50%;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.logo-rodape-prop {
+	float: right;
+	height: 26px;
+	margin: 8px 0 0 10px;
+	width: 52px;
+}
+
+.in-data-size {
+	width: 80px;
+}
+
+.fixed-table-container {
+	height: 300px;
+	margin: 2px auto;
+	padding-top: 30px;
+	position: relative;
+}
+
+.fixed-table-container-inner {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.fixed-table-container-inner th {
+	padding: 0 5px;
+	text-align: left;
+}
+
+.header-background {
+	background-color: #474747;
+	height: 30px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-radius: 10px 10px 0 0;
+}
+
+.th-inner {
+	float: left;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: 30px;
+	*margin-left: -50%;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 9%;
+	color: #FFFFFF;
+}
+
+.datepicker td, .datepicker th {
+	border: medium none;
+	border-radius: 4px;
+	height: 10px;
+	text-align: center;
+	width: 10px;
+	font-size: 10px;
+	padding: 2px 6px;
+	line-height: 19px;
+}
+
+.datepicker th {
+	color: #0E1A2B;
+}
+
+.pesquisa {
+	margin-left: 10px;
+}
+
+.popover-title {
+	background-color: #2670B5 !important;
+	color: #FFFFFF !important;
+}

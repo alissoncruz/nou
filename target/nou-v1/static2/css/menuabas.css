@@ -1,0 +1,191 @@
+.table {
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.data-area {
+	padding: 0px !important;
+	margin-top: 1px !important;
+}
+
+.bloco-filtro {
+	background-color: #EAEAEC;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 10px;
+	height: 45px;
+	margin: 10px auto;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 8.5px;
+	border-radius: 10px;
+	padding-left: 1%;
+}
+
+.form-prop {
+	float: left;
+	padding: 1px;
+}
+
+.form-prop-padingleft {
+	padding-left: 10px;
+}
+
+.bloco-filtro label {
+	color: #585858;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 28px;
+	text-align: left;
+}
+
+.bloco-filtro h5 {
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 10px;
+	line-height: 12px;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.bloco-filtro p {
+	text-align: center;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+
+.bloco-filtro input {
+	height: 14px;
+	margin-left: 5px;
+	font-size: 8.5px;
+	text-align: center;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	font-size: 10px;
+	color: #555;
+}
+
+.fundo-input {
+	width: 100% !important;
+	height: 76px;
+}
+
+.fundo-selecionar label {
+	font-size: 12px;
+}
+
+.fundo-area {
+	width: 500px;
+	margin-top: 4px;
+}
+
+.fundo-selecionar {
+	margin-left: 150px;
+	margin-top: -2px;
+}
+
+.fundos-fixed-table-container-tb {
+	height: 1px;
+	width: 99%;
+	margin: 10px auto;
+	padding-top: 14px;
+	position: relative;
+	margin-left: 4px;
+	font-size: 8.5px;
+	margin-top: -53px;
+	margin-bottom: 68px;
+}
+
+.portifolio-res-table .th-inner {
+	float: left;
+	font-size: 8px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-left: -5px;
+	padding-left: 5px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 9%;
+	color: #FFF;
+}
+
+.portifolio-res-table .tr-linha {
+	font-size: 9px !important;
+}
+
+.portifolio-res-table tr>td {
+	cursor: pointer;
+}
+
+.portifolio-res-table tr>td:hover {
+	background-color: white;
+}
+
+.portifolio-res-table th {
+	padding: 4px !important;
+	line-height: 10px !important;
+	background-color: #0290FA;
+	color: #FFF;
+	text-align: center;
+}
+
+.portifolio-res-table td {
+	padding: 4px !important;
+	line-height: 10px !important;
+	text-align: center;
+	color: #000;
+}
+
+.tab-content {
+	overflow: visible;
+	margin-top: -20px;
+}
+
+.status-red {
+	background-color: #EE5F5B !important;
+    background-image: linear-gradient(to bottom, #EE5F5B, #BD362F);
+    color: #FFFFFF !important;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.status-yellow {
+	background-color: #eab92d ! important;
+	background-image: linear-gradient(to bottom, #eab92d 0%,#c79810 100%); /* W3C */
+    color: #000000!important;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.status-green {
+	background-color: #5BB75B !important;
+    color: #FFFFFF !important;
+    background-image: linear-gradient(to bottom, #62C462, #51A351);
+    margin: 0 auto;
+}
+
+.status-remove {
+	background-color: #FFFFFF !important;
+    color: #FFFFFF !important;
+    background-image: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+    margin: 0 auto;
+}
+
+.posicao-btn-relatorio {
+	margin-top: -35px;
+	margin-left: 950px;
+}
+ 
+ .st-legenda {
+ 	margin-top: -41px !important;
+ 	margin-right: 400px !important;
+  }

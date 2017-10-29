@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+    		  http://www.springframework.org/schema/beans
+              http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+              http://www.springframework.org/schema/jee
+              http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+              http://www.springframework.org/schema/context 
+			  http://www.springframework.org/schema/context/spring-context-3.1.xsd
+			  http://www.springframework.org/schema/tx 
+			  http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
+
+	<tx:annotation-driven />
+
+	<!-- gerenciamento de jpa pelo spring -->
+<!-- 	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
+		</property>
+	</bean>
+ -->
+	<!-- gerenciamento da transação pelo spring -->
+	<!-- <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean> -->
+
+
+	<!-- jndi para JBOSS -->
+	 <jee:jndi-lookup id="dataSource" jndi-name="java:jboss/datasources/NouPgSQLDS"  expected-type="javax.sql.DataSource" /> 
+	
+
+
+<!-- 
+	<jee:jndi-lookup id="dataSource" jndi-name="jdbc/conexaoPostgres"
+		expected-type="javax.sql.DataSource" /> -->
+
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan">
+			<array>
+				<value>br.com.nou.entity</value>
+
+			</array>
+		</property>
+
+		<!-- PostgreSQL org.hibernate.dialect.SQLServer2008Dialect Oracle 9i/10g 
+			org.hibernate.dialect.Oracle10gDialect SQL SERVER org.hibernate.dialect.PostgreSQLDialect -->
+
+		<property name="hibernateProperties">
+			<value>
+				hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+				hibernate.hbm2ddl.auto=none
+				hibernate.format_sql=true
+				hibernate.show_sql=false
+				hibernate.jdbc.batch_size=50
+			</value>
+		</property>
+	</bean>
+
+	<!-- <jee:jndi-lookup id="dataSourceAccess" jndi-name="jdbc/conexaoAccess" 
+		expected-type="javax.sql.DataSource" /> <bean id="sessionFactoryAccess" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"> 
+		<property name="dataSourceAccess" ref="dataSourceAccess"/> <property name="packagesToScan"> 
+		<array> <value>br.com.nou.entity</value> </array> </property> <property name="hibernateProperties"> 
+		<value> hibernate.dialect=org.hibernate.dialect.SQLServerDialect hibernate.hbm2ddl.auto=none 
+		hibernate.format_sql=true hibernate.show_sql=true hibernate.jdbc.batch_size=50 
+		</value> </property> </bean> -->
+
+	<bean class="org.springframework.orm.hibernate4.HibernateExceptionTranslator" />
+
+	<!-- A transaction manager for working with Hibernate SessionFactories -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+
+
+
+</beans>

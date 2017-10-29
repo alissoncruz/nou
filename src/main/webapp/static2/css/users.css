@@ -1,0 +1,75 @@
+body {
+	font-family:Helvetica, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+
+.button-posicao{
+		margin-left: 75%;
+	margin-right: 25%;
+	/* position: relative; */
+	margin-bottom: 4px;
+	max-width:100%;	
+}
+
+
+img {
+  max-width:100%;
+}
+
+element {
+}
+
+body, html {
+    font-size: small;
+}
+body {
+    color: #222;
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+#pesquisa-botoes{
+	margin-left: 25%;
+	margin-right: 25%;
+	/* position: relative; */
+	margin-bottom: 2%;
+	max-width:100%;	
+}
+#logocentral{
+	margin-left: 45%;
+	margin-right: 45%;
+	max-width:100%;
+}
+
+
+
+.exception-result{
+	color: red;
+}
+
+.result{
+	margin-left: 3%;
+	margin-right: 3%;
+	max-width:100%;	
+}
+
+.result p{
+	/* margin-left: 20%; */
+}
+#menu{
+	height: 30px;
+	max-width:100%;
+	font-weight: bold;
+	margin-left: 90%;
+	margin-right: 3%;
+	margin-top: 1%;
+}
+
+#clickGoogle{
+    width:100px;
+    border:1px solid #456334;
+    background-color:white;
+}
